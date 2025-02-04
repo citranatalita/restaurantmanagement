@@ -17,3 +17,13 @@ include '.includes/toast_notification.php';
                 <!-- Tabel responsif -->
                 <div class="table-responsive text-nowrap">
                     <table id="datatable" class="table table-hover">
+                    <thead>
+                      <tr class="text-center">
+                        <th width="50px">#</th>
+                        <th>Judul Post</th>
+                        <th>Penulis</th>
+                        <th>Kategori</th>
+                        <th width="150px">Pilihan</th>
+                      </tr>
+                    </thead>
+                    <tbody class="table-border-bottom-0">
