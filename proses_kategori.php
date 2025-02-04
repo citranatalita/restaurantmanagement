@@ -1,17 +1,11 @@
 <?php
-
-
 include("config.php");
-
-
 session_start();
-
 
 if (isset($_POST['simpan'])) {
   
   $category_name = $_POST['category_name'];
 
-  
   $query = "INSERT INTO categories (category_name) VALUES ('$category_name')";
   $exec = mysqli_query($conn, $query);
 
