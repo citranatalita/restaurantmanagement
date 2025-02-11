@@ -48,7 +48,7 @@
             <div class="mb-3">
               <label for="formFile" class="form-label">Unggah Gambar</label>
               <input class="form-control" type="file" id="formFile" name="image_path" accept="image/*">
-              <?php if (!empty($post['image_path'])); ?>
+              <?php if (!empty($post['image_path'])): ?>
               <!-- Menampilkan gambar yang sudah diunggah -->
               <div class="mt-2">
                 <img src="<?= $post['image_path']; ?>" alt="Current Image" class="img-thumbnail" style="max-width: 200px;">
