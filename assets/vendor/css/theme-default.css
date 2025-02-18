@@ -96,7 +96,7 @@
 }
 
 .text-primary {
-  color: #696cff !important;
+  color: #ffa1a1 !important;
 }
 
 .text-body[href]:hover {
@@ -132,7 +132,7 @@ a.bg-primary:hover, a.bg-primary:focus {
 .pagination li.active > a:not(.page-link),
 .pagination li.active > a:not(.page-link):hover,
 .pagination li.active > a:not(.page-link):focus {
-  border-color: #696cff;
+  border-color: #947729;
   background-color: #696cff;
   color: #fff;
   box-shadow: 0 0.125rem 0.25rem rgba(105, 108, 255, 0.4);

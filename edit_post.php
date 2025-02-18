@@ -48,12 +48,12 @@
             <div class="mb-3">
               <label for="formFile" class="form-label">Unggah Gambar</label>
               <input class="form-control" type="file" id="formFile" name="image_path" accept="image/*">
-              <?php if (!empty($post['image_path'])): ?>
+<?php if (!empty($post['image_path'])): ?>
               <!-- Menampilkan gambar yang sudah diunggah -->
               <div class="mt-2">
                 <img src="<?= $post['image_path']; ?>" alt="Current Image" class="img-thumbnail" style="max-width: 200px;">
               </div>
-              <?php endif; ?>
+<?php endif; ?>
             </div>
 
             <!-- Dropdown untuk kategori -->
@@ -61,7 +61,7 @@
               <label for="category_id" class="form-label">Kategori</label>
               <select class="form-select" id="category_id" name="category_id" required>
                 <option value="" selected disabled>Select one</option>
-                <?php
+<?php
                 // Mengambil data kategori dari database
                 $queryCategories = "SELECT * FROM categories";
                 $resultCategories = $conn->query($queryCategories);

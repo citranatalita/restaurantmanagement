@@ -3,7 +3,7 @@
 $host = "localhost";
 $username = "root";
 $password = "";
-$database = "idekreatif";
+$database = "restaurantmanagement";
 
 $conn = mysqli_connect($host, $username,$password,$database);
 

@@ -20,7 +20,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             //Set notifikasi selamat datang
             $_SESSION['notification'] = [
                 'type' => 'primary',
-                'message' => 'Selamat Datang Kembali!'
+                'message' => 'Selamat Datang Di Restaurant Management!'
             ];
             //Redirect ke dashboard
             header('Location: ../dashboard.php');
@@ -29,14 +29,14 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             //password salah
             $_SESSION['notification'] = [
                 'type' => 'danger',
-                'message' => 'Username atau Password salah'
+                'message' => 'Username atau Password  Anda salah'
             ];
     }
 } else {
     // Username tidak ditemukan
     $_SESSION['notification'] = [
         'type' => 'danger',
-        'message' => 'Username atau Password salah'
+        'message' => 'Username atau Password Anda salah'
     ];
 }
 //Redirect kembali ke halaman login jika gagal
