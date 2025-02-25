@@ -22,7 +22,7 @@
     <div class="container-fluid container-xl d-flex align-items-center justify-content-between">
       <a href="index.php" class="logo d-flex align-items-center">
         <img src="assets/img/logo.png" alt="">
-        <span>IdeKreatif</span>
+        <span>RESTAURANTMANAGEMENT</span>
       </a>
       <nav id="navbar" class="navbar">
         <i class="bi bi-list mobile-nav-toggle"></i>
